@@ -1,0 +1,85 @@
+.body{
+    padding-left: 10px;
+    margin: 10px;
+    
+}
+
+img{
+    max-width: fit-content;
+    height:100px;
+    
+    
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 70% lighter;
+    color:chocolate;
+    font-size: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hit-button{
+    font: 'Trebuchet MS';
+    background-color: brown;
+    border-radius: 10px; 
+    border-color: brown;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    padding: 20px;
+    width: 170px;
+    transition: all 0.6s;
+    cursor: pointer;
+}
+
+.hit-button span{
+    cursor: pointer;
+    /* display: inline-block; */
+    position: relative;
+    transition: 0.5s;
+}
+
+.hit-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.hit-button:hover span {
+    padding-right: 25px;
+}
+.hit-button:hover span:after {
+opacity: 1;
+right: 0;
+}
+
+.hero{
+    background-image:url('images/IMG_0248 1.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.60;
+    content: "";
+    width:100vw;
+}
+.hero-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:70vh;
+}
+
+
+
+
